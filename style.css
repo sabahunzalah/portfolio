@@ -1,0 +1,127 @@
+.back {
+  /* border: 2px solid green; */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-color: black; */
+  /* background-image:url(images/contactpic-removebg-preview.png) ; */
+  background-image: linear-gradient(black, rgb(3, 3, 120), rgb(79, 57, 109));
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  border: 2px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.nav {
+  background-color: none !important;
+  border: 2px solid white;
+  width: 100%;
+  height: 70px;
+}
+.textCl {
+  color: white !important;
+  font-size: 25px;
+}
+.child1 {
+  /* border: 2px solid orange; */
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  height: "100%";
+  margin-top: 5%;
+}
+.pic {
+  /* border: 2px solid purple; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.child1text {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.fntSize {
+  font-size: 40px !important;
+}
+.footer {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar-toggler {
+  background-color: white !important;
+}
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-self: flex-end;
+  text-align: right;
+}
+.aboutMe {
+  /* border:2px solid white; */
+  margin-top: 100px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.picTwo {
+  /* border: 2px solid yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.txtTwo {
+  /* border: 2px solid yellowgreen; */
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.projects {
+  margin-top: 90px !important;
+  display: flex;
+  justify-content: center;
+}
+.crd {
+  width: 380px;
+  margin-left: 5px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(
+    rgb(63, 18, 105),
+    rgb(20, 20, 173),
+    rgb(97, 7, 124)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+  border: 2px solid rgb(35, 5, 35);
+  transition: 2s;
+}
+.crd:hover {
+  transform: scale(1.2);
+  transition: 2s;
+  z-index: 1;
+  box-shadow: 0px, 0px, 15px, white !important;
+}
+.btcolor {
+  background: linear-gradient(to top, #3333ff 0%, #99ccff 100%);
+}
+.btcolor:hover {
+  background: linear-gradient(to bottom, #00a0cc 0%, #3a2a6d 100%);
+  transition: linear;
+}
